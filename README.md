@@ -150,7 +150,7 @@ public static final int PLAY_TYPE_LOCAL_VIDEO = 5;
 
 
 ## 问题反馈
-请在 github 上公开提出相关[技术问题](http://ffmpeg.org/)
+请在 github 上公开提出相关[技术问题](https://github.com/eastmoney18/emliveplayer/pulls/)
 
 ## License
 LGPLv2.1 or later
