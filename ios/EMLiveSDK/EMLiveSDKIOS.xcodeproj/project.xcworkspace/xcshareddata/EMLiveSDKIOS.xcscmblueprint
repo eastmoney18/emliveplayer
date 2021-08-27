@@ -1,0 +1,45 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "2128d3be-6409-4fe9-b75f-8c423c61bcec++7212",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "65526424-9485-43db-a7b5-ef7ba0096ad2++3027" : {
+      "DVTSourceControlWorkingCopyRepositoryPrimaryBranchLocationKey" : "MediaLiveLib\/trunk"
+    },
+    "65526424-9485-43db-a7b5-ef7ba0096ad2++2524" : {
+
+    },
+    "2128d3be-6409-4fe9-b75f-8c423c61bcec++7212" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "65526424-9485-43db-a7b5-ef7ba0096ad2++3027" : 9223372036854775807,
+    "65526424-9485-43db-a7b5-ef7ba0096ad2++2524" : 9223372036854775807,
+    "2128d3be-6409-4fe9-b75f-8c423c61bcec++7212" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "052E906A-0C07-4B7E-95E3-23CEE13C7D30",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "65526424-9485-43db-a7b5-ef7ba0096ad2++3027" : "LiveSDK\/MediaLiveLib\/",
+    "65526424-9485-43db-a7b5-ef7ba0096ad2++2524" : "LiveSDK\/EMLiveSDKIOS\/EMLiveSDKIOS\/vendor\/medialivelib\/",
+    "2128d3be-6409-4fe9-b75f-8c423c61bcec++7212" : "LiveSDK\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "EMLiveSDKIOS",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "EMLiveSDKIOS\/EMLiveSDKIOS.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/chenhaidong.js@172.16.56.11\/svn\/EMLVB",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2128d3be-6409-4fe9-b75f-8c423c61bcec++7212"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/www.biankantech.com\/nx_media_system",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "65526424-9485-43db-a7b5-ef7ba0096ad2++2524"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/www.biankantech.com\/nx_media_system",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "65526424-9485-43db-a7b5-ef7ba0096ad2++3027"
+    }
+  ]
+}

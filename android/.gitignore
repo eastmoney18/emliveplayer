@@ -1,0 +1,11 @@
+#ignore this files#
+.gradle/
+.idea/
+*/build/
+*/*.externalNativeBuild/
+*/*.iml
+*/.cxx/
+gradle/*
+local.properties
+distribution
+*.iml

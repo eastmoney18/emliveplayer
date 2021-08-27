@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		906DBF3A2317AF1200009C0E /* libavformat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A92E53501D922919000EF936 /* libavformat.a */; };
+		906DBF3B2317AF1200009C0E /* libavutil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A99BB60A1D82A88C00E2E6EF /* libavutil.a */; };
+		906DBF3C2317AF1200009C0E /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A93F8F341E963FAC00F5ED41 /* libssl.a */; };
+		906DBF3D2317AF1200009C0E /* libswresample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A99BB60B1D82A88C00E2E6EF /* libswresample.a */; };
+		90A55F96216D91860056A6D9 /* EMVoicePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A55F94216D91860056A6D9 /* EMVoicePlayer.m */; };
+		90A55F98216D928D0056A6D9 /* EMVoicePlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 90A55F97216D928D0056A6D9 /* EMVoicePlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A93CCAEB1E7693E400919C91 /* EMLivePlayConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = A986CCD91D7FC1270090CDDF /* EMLivePlayConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A93CCAED1E7693E400919C91 /* EMLivePlayListener.h in Headers */ = {isa = PBXBuildFile; fileRef = A986CCDB1D7FC1890090CDDF /* EMLivePlayListener.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A93F8F351E963FAC00F5ED41 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A93F8F331E963FAC00F5ED41 /* libcrypto.a */; };
+		A98683301D7FE7130090CDDF /* EMParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = A986832F1D7FE7130090CDDF /* EMParameter.m */; };
+		A98683401D8006BA0090CDDF /* EMLiveSDKIOS.h in Headers */ = {isa = PBXBuildFile; fileRef = A986CCD11D7FC0270090CDDF /* EMLiveSDKIOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A98683471D8006BA0090CDDF /* EMLiveSDKEventDef.h in Headers */ = {isa = PBXBuildFile; fileRef = A986CCDF1D7FC1F70090CDDF /* EMLiveSDKEventDef.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A98683481D8006BA0090CDDF /* EMLiveSDKTypeDef.h in Headers */ = {isa = PBXBuildFile; fileRef = A986CCE01D7FC2110090CDDF /* EMLiveSDKTypeDef.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A98683CC1D814C8E0090CDDF /* EMLivePlayConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = A98683CB1D814C8E0090CDDF /* EMLivePlayConfig.m */; };
+		A9E9192D2092B3D9009236ED /* EMLivePlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = A9E919292092B3D9009236ED /* EMLivePlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9FDA50B2047FBAF00F0A5A2 /* EMLivePlayer2.h in Headers */ = {isa = PBXBuildFile; fileRef = A9FDA5092047FBAF00F0A5A2 /* EMLivePlayer2.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9FDA50C2047FBAF00F0A5A2 /* EMLivePlayer2.m in Sources */ = {isa = PBXBuildFile; fileRef = A9FDA50A2047FBAF00F0A5A2 /* EMLivePlayer2.m */; };
+		E95632B225C005C400260E72 /* libavcodec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A99BB6071D82A88C00E2E6EF /* libavcodec.a */; };
+		E9AB43982696DC850071D3CD /* libmedialiveplayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E9AB43972696DC850071D3CD /* libmedialiveplayer.a */; };
+		E9AC8EB226608C030083B33A /* libswscale.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A99BB60C1D82A88C00E2E6EF /* libswscale.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E9AB4559269ECA5B0071D3CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9AB4555269ECA5B0071D3CD /* medialiveplayer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 02396B7F20CA74EE00EFB086;
+			remoteInfo = medialiveplayer;
+		};
+		E9F2988D26D8DD7F003F5F02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9F2988926D8DD7F003F5F02 /* medialiveplayer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 02396B7F20CA74EE00EFB086;
+			remoteInfo = medialiveplayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		90A55F94216D91860056A6D9 /* EMVoicePlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EMVoicePlayer.m; sourceTree = "<group>"; };
+		90A55F97216D928D0056A6D9 /* EMVoicePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EMVoicePlayer.h; path = EMLiveSDKIOS/EMVoicePlayer.h; sourceTree = "<group>"; };
+		A92E53501D922919000EF936 /* libavformat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavformat.a; path = EMLiveSDKIOS/vendor/IJKPlayer/ios/build/universal/lib/libavformat.a; sourceTree = "<group>"; };
+		A93CCA321E76921F00919C91 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		A93F8F331E963FAC00F5ED41 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrypto.a; path = EMLiveSDKIOS/vendor/IJKPlayer/ios/build/universal/lib/libcrypto.a; sourceTree = "<group>"; };
+		A93F8F341E963FAC00F5ED41 /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libssl.a; path = EMLiveSDKIOS/vendor/IJKPlayer/ios/build/universal/lib/libssl.a; sourceTree = "<group>"; };
+		A986832F1D7FE7130090CDDF /* EMParameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMParameter.m; sourceTree = "<group>"; };
+		A98683331D7FE77D0090CDDF /* EMParameter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMParameter.h; sourceTree = "<group>"; };
+		A98683741D8010010090CDDF /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		A98683761D80105D0090CDDF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A98683771D80105D0090CDDF /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		A98683781D80105D0090CDDF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A98683791D80105D0090CDDF /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		A986837A1D80105D0090CDDF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A986837B1D80105D0090CDDF /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		A986837C1D80105D0090CDDF /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		A986837D1D80105D0090CDDF /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		A986839F1D80F4370090CDDF /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		A98683CB1D814C8E0090CDDF /* EMLivePlayConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMLivePlayConfig.m; sourceTree = "<group>"; };
+		A986CCCE1D7FC0270090CDDF /* EMLiveSDKIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EMLiveSDKIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A986CCD11D7FC0270090CDDF /* EMLiveSDKIOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = EMLiveSDKIOS.h; path = EMLiveSDKIOS/EMLiveSDKIOS.h; sourceTree = "<group>"; };
+		A986CCD31D7FC0270090CDDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A986CCD91D7FC1270090CDDF /* EMLivePlayConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = EMLivePlayConfig.h; path = EMLiveSDKIOS/EMLivePlayConfig.h; sourceTree = "<group>"; };
+		A986CCDB1D7FC1890090CDDF /* EMLivePlayListener.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = EMLivePlayListener.h; path = EMLiveSDKIOS/EMLivePlayListener.h; sourceTree = "<group>"; };
+		A986CCDF1D7FC1F70090CDDF /* EMLiveSDKEventDef.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = EMLiveSDKEventDef.h; path = EMLiveSDKIOS/EMLiveSDKEventDef.h; sourceTree = "<group>"; };
+		A986CCE01D7FC2110090CDDF /* EMLiveSDKTypeDef.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = EMLiveSDKTypeDef.h; path = EMLiveSDKIOS/EMLiveSDKTypeDef.h; sourceTree = "<group>"; };
+		A99BB5D21D8151B800E2E6EF /* libz.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.dylib; path = /usr/lib/libz.1.dylib; sourceTree = "<absolute>"; };
+		A99BB6071D82A88C00E2E6EF /* libavcodec.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavcodec.a; path = EMLiveSDKIOS/vendor/IJKPlayer/ios/build/universal/lib/libavcodec.a; sourceTree = "<group>"; };
+		A99BB6081D82A88C00E2E6EF /* libavfilter.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavfilter.a; path = EMLiveSDKIOS/vendor/IJKPlayer/ios/build/universal/lib/libavfilter.a; sourceTree = "<group>"; };
+		A99BB60A1D82A88C00E2E6EF /* libavutil.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavutil.a; path = EMLiveSDKIOS/vendor/IJKPlayer/ios/build/universal/lib/libavutil.a; sourceTree = "<group>"; };
+		A99BB60B1D82A88C00E2E6EF /* libswresample.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libswresample.a; path = EMLiveSDKIOS/vendor/IJKPlayer/ios/build/universal/lib/libswresample.a; sourceTree = "<group>"; };
+		A99BB60C1D82A88C00E2E6EF /* libswscale.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libswscale.a; path = EMLiveSDKIOS/vendor/IJKPlayer/ios/build/universal/lib/libswscale.a; sourceTree = "<group>"; };
+		A9E919292092B3D9009236ED /* EMLivePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EMLivePlayer.h; path = EMLiveSDKIOS/EMLivePlayer.h; sourceTree = "<group>"; };
+		A9FDA5092047FBAF00F0A5A2 /* EMLivePlayer2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EMLivePlayer2.h; path = EMLiveSDKIOS/EMLivePlayer2.h; sourceTree = "<group>"; };
+		A9FDA50A2047FBAF00F0A5A2 /* EMLivePlayer2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMLivePlayer2.m; sourceTree = "<group>"; };
+		E95632B125C0027700260E72 /* EMLiveSDK.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMLiveSDK.pch; sourceTree = "<group>"; };
+		E9AB438C2696DBB30071D3CD /* libmedialiveplayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libmedialiveplayer.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9AB43972696DC850071D3CD /* libmedialiveplayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libmedialiveplayer.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9AB4555269ECA5B0071D3CD /* medialiveplayer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = medialiveplayer.xcodeproj; path = medialiveplayer/trunk/IJKMediaPlayer/medialiveplayer.xcodeproj; sourceTree = SOURCE_ROOT; };
+		E9AC8E90266088BA0083B33A /* libx264.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libx264.a; path = "../thirdparty/x264/thin-x264/arm64/lib/libx264.a"; sourceTree = "<group>"; };
+		E9AC8E95266089840083B33A /* libx264.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libx264.a; path = "../thirdparty/x264/x264-iOS/lib/libx264.a"; sourceTree = "<group>"; };
+		E9AC8EB026608B920083B33A /* libx264.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libx264.a; path = EMLiveSDKIOS/vendor/IJKPlayer/ios/build/universal/lib/libx264.a; sourceTree = "<group>"; };
+		E9AC8EBC26661E810083B33A /* libx264.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libx264.a; path = EMLiveSDKIOS/vendor/lib/x264/libx264.a; sourceTree = "<group>"; };
+		E9B162852192A9D5005A7D61 /* libyuv.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libyuv.a; path = EMLiveSDKIOS/vendor/lib/yuv/lib/libyuv.a; sourceTree = "<group>"; };
+		E9EE687A25806497006A32A9 /* EMLiveSDKIOS */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = EMLiveSDKIOS; path = ../build/EMLiveSDKIOS.framework/EMLiveSDKIOS; sourceTree = "<group>"; };
+		E9F2988926D8DD7F003F5F02 /* medialiveplayer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = medialiveplayer.xcodeproj; path = medialiveplayer/trunk/IJKMediaPlayer/medialiveplayer.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A986CCCA1D7FC0270090CDDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9AB43982696DC850071D3CD /* libmedialiveplayer.a in Frameworks */,
+				E9AC8EB226608C030083B33A /* libswscale.a in Frameworks */,
+				A93F8F351E963FAC00F5ED41 /* libcrypto.a in Frameworks */,
+				906DBF3A2317AF1200009C0E /* libavformat.a in Frameworks */,
+				906DBF3B2317AF1200009C0E /* libavutil.a in Frameworks */,
+				906DBF3C2317AF1200009C0E /* libssl.a in Frameworks */,
+				E95632B225C005C400260E72 /* libavcodec.a in Frameworks */,
+				906DBF3D2317AF1200009C0E /* libswresample.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A970CD921E26099100443A50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9AB43972696DC850071D3CD /* libmedialiveplayer.a */,
+				E9AB438C2696DBB30071D3CD /* libmedialiveplayer.a */,
+				E9AC8E90266088BA0083B33A /* libx264.a */,
+				E9AC8E95266089840083B33A /* libx264.a */,
+				E9AC8EB026608B920083B33A /* libx264.a */,
+				E9AC8EBC26661E810083B33A /* libx264.a */,
+				E9EE687A25806497006A32A9 /* EMLiveSDKIOS */,
+				E9B162852192A9D5005A7D61 /* libyuv.a */,
+				A93CCA321E76921F00919C91 /* AudioUnit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A98683731D800FDE0090CDDF /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				A93F8F331E963FAC00F5ED41 /* libcrypto.a */,
+				A93F8F341E963FAC00F5ED41 /* libssl.a */,
+				A92E53501D922919000EF936 /* libavformat.a */,
+				A99BB6071D82A88C00E2E6EF /* libavcodec.a */,
+				A99BB6081D82A88C00E2E6EF /* libavfilter.a */,
+				A99BB60A1D82A88C00E2E6EF /* libavutil.a */,
+				A99BB60B1D82A88C00E2E6EF /* libswresample.a */,
+				A99BB60C1D82A88C00E2E6EF /* libswscale.a */,
+				A99BB5D21D8151B800E2E6EF /* libz.1.dylib */,
+				A986839F1D80F4370090CDDF /* Accelerate.framework */,
+				A98683761D80105D0090CDDF /* AVFoundation.framework */,
+				A98683771D80105D0090CDDF /* CFNetwork.framework */,
+				A98683781D80105D0090CDDF /* CoreGraphics.framework */,
+				A98683791D80105D0090CDDF /* CoreMedia.framework */,
+				A986837A1D80105D0090CDDF /* Foundation.framework */,
+				A986837B1D80105D0090CDDF /* libz.tbd */,
+				A986837C1D80105D0090CDDF /* OpenGLES.framework */,
+				A986837D1D80105D0090CDDF /* VideoToolbox.framework */,
+				A98683741D8010010090CDDF /* AudioToolbox.framework */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		A986CCC41D7FC0270090CDDF = {
+			isa = PBXGroup;
+			children = (
+				E9F2988926D8DD7F003F5F02 /* medialiveplayer.xcodeproj */,
+				A98683731D800FDE0090CDDF /* Framework */,
+				A986CCE11D7FD0250090CDDF /* EMLiveSDKHeader */,
+				A986CCD01D7FC0270090CDDF /* EMLiveSDKIOS */,
+				A986CCCF1D7FC0270090CDDF /* Products */,
+				A970CD921E26099100443A50 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A986CCCF1D7FC0270090CDDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A986CCCE1D7FC0270090CDDF /* EMLiveSDKIOS.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A986CCD01D7FC0270090CDDF /* EMLiveSDKIOS */ = {
+			isa = PBXGroup;
+			children = (
+				E9AB4555269ECA5B0071D3CD /* medialiveplayer.xcodeproj */,
+				E95632B125C0027700260E72 /* EMLiveSDK.pch */,
+				A98683331D7FE77D0090CDDF /* EMParameter.h */,
+				A986832F1D7FE7130090CDDF /* EMParameter.m */,
+				A9FDA50A2047FBAF00F0A5A2 /* EMLivePlayer2.m */,
+				90A55F94216D91860056A6D9 /* EMVoicePlayer.m */,
+				A98683CB1D814C8E0090CDDF /* EMLivePlayConfig.m */,
+				A986CCD31D7FC0270090CDDF /* Info.plist */,
+			);
+			path = EMLiveSDKIOS;
+			sourceTree = "<group>";
+		};
+		A986CCE11D7FD0250090CDDF /* EMLiveSDKHeader */ = {
+			isa = PBXGroup;
+			children = (
+				90A55F97216D928D0056A6D9 /* EMVoicePlayer.h */,
+				A9E919292092B3D9009236ED /* EMLivePlayer.h */,
+				A9FDA5092047FBAF00F0A5A2 /* EMLivePlayer2.h */,
+				A986CCD11D7FC0270090CDDF /* EMLiveSDKIOS.h */,
+				A986CCD91D7FC1270090CDDF /* EMLivePlayConfig.h */,
+				A986CCDB1D7FC1890090CDDF /* EMLivePlayListener.h */,
+				A986CCE01D7FC2110090CDDF /* EMLiveSDKTypeDef.h */,
+				A986CCDF1D7FC1F70090CDDF /* EMLiveSDKEventDef.h */,
+			);
+			name = EMLiveSDKHeader;
+			sourceTree = "<group>";
+		};
+		E9AB4556269ECA5B0071D3CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9AB455A269ECA5B0071D3CD /* libmedialiveplayer.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9F2988A26D8DD7F003F5F02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9F2988E26D8DD7F003F5F02 /* libmedialiveplayer.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A986CCCB1D7FC0270090CDDF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9FDA50B2047FBAF00F0A5A2 /* EMLivePlayer2.h in Headers */,
+				A93CCAEB1E7693E400919C91 /* EMLivePlayConfig.h in Headers */,
+				A93CCAED1E7693E400919C91 /* EMLivePlayListener.h in Headers */,
+				A9E9192D2092B3D9009236ED /* EMLivePlayer.h in Headers */,
+				A98683401D8006BA0090CDDF /* EMLiveSDKIOS.h in Headers */,
+				90A55F98216D928D0056A6D9 /* EMVoicePlayer.h in Headers */,
+				A98683471D8006BA0090CDDF /* EMLiveSDKEventDef.h in Headers */,
+				A98683481D8006BA0090CDDF /* EMLiveSDKTypeDef.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A986CCCD1D7FC0270090CDDF /* EMLiveSDKIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A986CCD61D7FC0270090CDDF /* Build configuration list for PBXNativeTarget "EMLiveSDKIOS" */;
+			buildPhases = (
+				A986CCC91D7FC0270090CDDF /* Sources */,
+				A986CCCA1D7FC0270090CDDF /* Frameworks */,
+				A986CCCB1D7FC0270090CDDF /* Headers */,
+				A986CCCC1D7FC0270090CDDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EMLiveSDKIOS;
+			productName = EMLiveSDKIOS;
+			productReference = A986CCCE1D7FC0270090CDDF /* EMLiveSDKIOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A986CCC51D7FC0270090CDDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = eastmoney;
+				TargetAttributes = {
+					A986CCCD1D7FC0270090CDDF = {
+						CreatedOnToolsVersion = 7.3.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A986CCC81D7FC0270090CDDF /* Build configuration list for PBXProject "EMLiveSDKIOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+			);
+			mainGroup = A986CCC41D7FC0270090CDDF;
+			productRefGroup = A986CCCF1D7FC0270090CDDF /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = E9F2988A26D8DD7F003F5F02 /* Products */;
+					ProjectRef = E9F2988926D8DD7F003F5F02 /* medialiveplayer.xcodeproj */;
+				},
+				{
+					ProductGroup = E9AB4556269ECA5B0071D3CD /* Products */;
+					ProjectRef = E9AB4555269ECA5B0071D3CD /* medialiveplayer.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				A986CCCD1D7FC0270090CDDF /* EMLiveSDKIOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		E9AB455A269ECA5B0071D3CD /* libmedialiveplayer.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libmedialiveplayer.a;
+			remoteRef = E9AB4559269ECA5B0071D3CD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E9F2988E26D8DD7F003F5F02 /* libmedialiveplayer.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libmedialiveplayer.a;
+			remoteRef = E9F2988D26D8DD7F003F5F02 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A986CCCC1D7FC0270090CDDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A986CCC91D7FC0270090CDDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A98683301D7FE7130090CDDF /* EMParameter.m in Sources */,
+				A9FDA50C2047FBAF00F0A5A2 /* EMLivePlayer2.m in Sources */,
+				90A55F96216D91860056A6D9 /* EMVoicePlayer.m in Sources */,
+				A98683CC1D814C8E0090CDDF /* EMLivePlayConfig.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A986CCD41D7FC0270090CDDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s arm64";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A986CCD51D7FC0270090CDDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 armv7s arm64";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A986CCD71D7FC0270090CDDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
+				ENABLE_BITCODE = NO;
+				EXCLUDED_ARCHS = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/../framework",
+					"$(PROJECT_DIR)/EMLiveSDKIOS/vendor",
+					"$(PROJECT_DIR)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = EMLiveSDKIOS/EMLiveSDK.pch;
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/../demo/Pods/Headers/Public/**",
+					"$(PROJECT_DIR)/EMLiveSDKIOS",
+					"$(PROJECT_DIR)/medialiveplayer/trunk/IJKMediaPlayer/**",
+					"$(PROJECT_DIR)/EMLiveSDKIOS/vendor/lib/yuv",
+					"$(PROJECT_DIR)/EMLiveSDKIOS/http",
+					"$(PROJECT_DIR)/EMLiveSDKIOS/vendor",
+					"$(PROJECT_DIR)/EMLiveSDKIOS/../../",
+				);
+				INFOPLIST_FILE = EMLiveSDKIOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EMLiveSDKIOS/vendor/PLRecorderKit/Vendor/videocore/ffmpeg/lib",
+					"$(PROJECT_DIR)/EMLiveSDKIOS/vendor/PLRecorderKit/Vendor",
+					"$(PROJECT_DIR)/EMLiveSDKIOS/vendor/IJKPlayer/ios/build/universal/lib",
+					"$(PROJECT_DIR)/EMLiveSDKIOS/vendor/medialivelib/ml_vendor/lib/IOS",
+					"$(PROJECT_DIR)/EMLiveSDKIOS/vendor/lib",
+					"$(PROJECT_DIR)/EMLiveSDKIOS/vendor/medialivelib/xcode/medialivelib/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/EMLiveSDKIOS/vendor/lib/LameUitls",
+					"$(PROJECT_DIR)/EMLiveSDKIOS/vendor/lib/yuv/lib",
+					"$(PROJECT_DIR)/EMLiveSDKIOS/vendor/lib/x264",
+				);
+				MACH_O_TYPE = staticlib;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eastmoney.EMLiveSDKIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				VALID_ARCHS = "arm64 armv7 i386 x86_64";
+			};
+			name = Debug;
+		};
+		A986CCD81D7FC0270090CDDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
+				ENABLE_BITCODE = NO;
+				EXCLUDED_ARCHS = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/../framework",
+					"$(PROJECT_DIR)/EMLiveSDKIOS/vendor",
+					"$(PROJECT_DIR)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = EMLiveSDKIOS/EMLiveSDK.pch;
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/../demo/Pods/Headers/Public/**",
+					"$(PROJECT_DIR)/EMLiveSDKIOS",
+					"$(PROJECT_DIR)/medialiveplayer/trunk/IJKMediaPlayer/**",
+					"$(PROJECT_DIR)/EMLiveSDKIOS/vendor/lib/yuv",
+					"$(PROJECT_DIR)/EMLiveSDKIOS/http",
+					"$(PROJECT_DIR)/EMLiveSDKIOS/vendor",
+					"$(PROJECT_DIR)/EMLiveSDKIOS/../../",
+				);
+				INFOPLIST_FILE = EMLiveSDKIOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EMLiveSDKIOS/vendor/PLRecorderKit/Vendor/videocore/ffmpeg/lib",
+					"$(PROJECT_DIR)/EMLiveSDKIOS/vendor/PLRecorderKit/Vendor",
+					"$(PROJECT_DIR)/EMLiveSDKIOS/vendor/IJKPlayer/ios/build/universal/lib",
+					"$(PROJECT_DIR)/EMLiveSDKIOS/vendor/medialivelib/ml_vendor/lib/IOS",
+					"$(PROJECT_DIR)/EMLiveSDKIOS/vendor/lib",
+					"$(PROJECT_DIR)/EMLiveSDKIOS/vendor/medialivelib/xcode/medialivelib/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/EMLiveSDKIOS/vendor/lib/LameUitls",
+					"$(PROJECT_DIR)/EMLiveSDKIOS/vendor/lib/yuv/lib",
+					"$(PROJECT_DIR)/EMLiveSDKIOS/vendor/lib/x264",
+				);
+				MACH_O_TYPE = staticlib;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eastmoney.EMLiveSDKIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				VALID_ARCHS = "arm64 armv7 i386 x86_64";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A986CCC81D7FC0270090CDDF /* Build configuration list for PBXProject "EMLiveSDKIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A986CCD41D7FC0270090CDDF /* Debug */,
+				A986CCD51D7FC0270090CDDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A986CCD61D7FC0270090CDDF /* Build configuration list for PBXNativeTarget "EMLiveSDKIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A986CCD71D7FC0270090CDDF /* Debug */,
+				A986CCD81D7FC0270090CDDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A986CCC51D7FC0270090CDDF /* Project object */;
+}

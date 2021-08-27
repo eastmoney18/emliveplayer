@@ -1,0 +1,20 @@
+//
+//  EMLiveSDK.pch
+//  EMLiveSDKIOS
+//
+//  Created by caocl on 2021/1/26.
+//  Copyright © 2021 eastmoney. All rights reserved.
+//
+
+#ifndef EMLiveSDK_pch
+#define EMLiveSDK_pch
+
+#import <Foundation/Foundation.h>
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+extern void emlivesdk_log_printf(NSString *fmt, ...);
+extern void emlivesdk_log_printf(const char* format, va_list args);
+
+#endif /* EMLiveSDK_pch */

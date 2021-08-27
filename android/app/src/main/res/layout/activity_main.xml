@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:userdef="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:textSize="22dp"
+        android:textColor="@color/white"
+        android:text="播放器SDK DEMO"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+
+    <com.eastmoney.rtmp.demo.common.widget.CustomButton
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginTop="15dp"
+        android:textSize="18dp"
+        android:text="测试"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        userdef:normal_color="@color/colorGray5"
+        android:id="@+id/btnPlayTest"
+        />
+
+</LinearLayout>

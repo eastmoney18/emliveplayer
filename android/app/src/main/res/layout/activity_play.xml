@@ -1,0 +1,281 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:userdef="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorGray5"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="0dp">
+
+        <LinearLayout
+            android:id="@+id/layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.eastmoney.emlivesdkandroid.ui.EMLiveVideoView2
+                android:id="@+id/video_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:layout_weight="1"
+                android:visibility="visible" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/logViewStatus"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:textColor="#333333"
+            android:textSize="10sp"
+            android:scrollbars = "vertical"
+            android:padding="2dp"
+            android:textStyle="bold"
+            android:background="#60ffffff"
+            android:typeface="monospace"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="110dp"
+            android:layout_marginRight="15dp"/>
+
+        <LinearLayout
+            android:id="@+id/play_progress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="50dp"
+            android:visibility="visible">
+
+            <TextView
+                android:id="@+id/play_start"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="00:00"
+                android:textSize="16sp"
+                android:layout_weight="1"/>
+            <SeekBar
+                android:id="@+id/seekbar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:max="0"
+                android:maxHeight="2.0dip"
+                android:minHeight="2.0dip"
+                android:progress="0"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:progressDrawable="@drawable/play_seekbar_progress"
+                android:thumb="@drawable/play_seekbar_icon"
+                android:layout_weight="18"/>
+            <TextView
+                android:id="@+id/duration"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="--:--"
+                android:textSize="16sp"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:orientation="vertical"
+                android:paddingBottom="100dp">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="bottom"
+                >
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"/>
+
+                <com.eastmoney.rtmp.demo.common.widget.CustomButton
+                    android:id="@+id/btnPlay"
+                    android:layout_width="48dp"
+                    android:layout_height="28dp"
+                    android:text="播放"
+                    userdef:radius="8dp"
+                    userdef:normal_color="@color/colorSendName2"
+                    android:textColor="@color/colorTextWhite"
+                     />
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    />
+                <com.eastmoney.rtmp.demo.common.widget.CustomButton
+                    android:id="@+id/btnStop"
+                    android:layout_width="48dp"
+                    android:layout_height="28dp"
+                    android:text="停止"
+                    userdef:radius="8dp"
+                    userdef:normal_color="@color/colorRed"
+                    android:textColor="@color/colorTextWhite"/>
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"/>
+                <com.eastmoney.rtmp.demo.common.widget.CustomButton
+                    android:id="@+id/btnLog"
+                    android:layout_width="48dp"
+                    android:layout_height="28dp"
+                    android:text="日志"
+                    userdef:radius="8dp"
+                    userdef:normal_color="@color/colorSendName2"
+                    android:textColor="@color/colorTextWhite"/>
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"/>
+                <com.eastmoney.rtmp.demo.common.widget.CustomButton
+                    android:id="@+id/btnHWDecode"
+                    android:layout_width="48dp"
+                    android:layout_height="28dp"
+                    android:text="HW"
+                    userdef:radius="8dp"
+                    userdef:normal_color="@color/colorSendName2"
+                    android:textColor="@color/colorTextWhite"/>
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"/>
+                <com.eastmoney.rtmp.demo.common.widget.CustomButton
+                    android:id="@+id/btnOrientation"
+                    android:layout_width="48dp"
+                    android:layout_height="28dp"
+                    android:text="横屏"
+                    userdef:radius="8dp"
+                    userdef:normal_color="@color/colorSendName2"
+                    android:textColor="@color/colorTextWhite"/>
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"/>
+                <com.eastmoney.rtmp.demo.common.widget.CustomButton
+                    android:id="@+id/btnRenderMode"
+                    android:layout_width="48dp"
+                    android:layout_height="28dp"
+                    android:text="模式"
+                    userdef:radius="8dp"
+                    userdef:normal_color="@color/colorSendName2"
+                    android:textColor="@color/colorTextWhite"/>
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"/>
+                <com.eastmoney.rtmp.demo.common.widget.CustomButton
+                    android:id="@+id/btnChangPlayRate"
+                    android:layout_width="48dp"
+                    android:layout_height="28dp"
+                    android:text="1.0"
+                    userdef:radius="8dp"
+                    userdef:normal_color="@color/colorSendName2"
+                    android:textColor="@color/colorTextWhite"/>
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <ScrollView
+            android:id="@+id/scrollview"
+            android:layout_width="match_parent"
+            android:layout_height="344dp"
+            android:layout_alignLeft="@id/logViewStatus"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="167dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="60dp"
+            android:background="#60ffffff"
+            android:fadeScrollbars="true"
+            android:scrollbars="vertical">
+
+            <TextView
+                android:id="@+id/logViewEvent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="2dp"
+                android:scrollbars="vertical"
+                android:textColor="#333333"
+                android:textSize="13dp" />
+        </ScrollView>
+
+        <ImageView
+            android:id="@+id/loadingImageView"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_gravity="center"
+            android:src="@drawable/loading_animation"
+            android:visibility="gone"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="41dp">
+
+            <LinearLayout
+                android:id="@+id/back_ll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="14dp"
+                    android:layout_height="28dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/btn_back_gray"
+                    android:gravity="center"/>
+                <TextView
+                    android:id="@+id/back_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:gravity="center_vertical"
+                    android:layout_gravity="center_vertical"
+                    android:textSize="14dp"
+                    android:textColor="#ffffff"
+                    android:text="返回" />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/title_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:text="标题"/>
+        </FrameLayout>
+
+        <include layout="@layout/titlebar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="45dp" />
+    </FrameLayout>
+</LinearLayout>

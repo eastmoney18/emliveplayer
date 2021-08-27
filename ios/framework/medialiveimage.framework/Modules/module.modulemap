@@ -1,0 +1,6 @@
+framework module medialiveimage {
+  umbrella header "medialiveimage.h"
+
+  export *
+  module * { export * }
+}

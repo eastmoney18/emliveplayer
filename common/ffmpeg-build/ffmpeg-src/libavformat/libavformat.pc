@@ -1,0 +1,14 @@
+prefix=/mnt/e/livesdk-master/ffmpeg-build/android/build/ffmpeg-armv5/output
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: libavformat
+Description: FFmpeg container format library
+Version: 57.40.101
+Requires: libavcodec >= .., libavutil >= 55.27.100
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lavformat -lssl -lcrypto -lm -lz -pthread
+Libs.private: 
+Cflags: -I${includedir}

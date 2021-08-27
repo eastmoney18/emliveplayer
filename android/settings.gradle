@@ -1,0 +1,4 @@
+include ':vendor:ijkplayer'
+include ':emlivesdkandroid'
+include ':emlibso'
+include ':app'

@@ -1,0 +1,12 @@
+source'https://github.com/CocoaPods/Specs.Git'
+
+
+#use_frameworks!
+platform:ios,'8.0'
+target 'playerdemo' do
+
+pod 'Masonry'
+pod 'MBProgressHUD', '1.1.0'
+pod 'CocoaLumberjack'
+
+end
