@@ -17,7 +17,8 @@ demo - 播放器测试demo
 
 *android*   
 emlivesdkandroid - 播放器SDK    
-emlibso - 播放器jni相关代码     
+emlibso - 播放器jni相关代码
+aar - medialivelib-release.aar 视频渲染模块（暂未开放源码，源码开放计划中...)     
 app - 播放器测试demo
 
 *common*        
@@ -104,7 +105,7 @@ typedef NS_ENUM(NSInteger, EM_Enum_PlayType) {
 gradle 
 ```xml
 dependencies{
-    // 添加emlivesdkandroid.aad medlivelib.aar
+    // 添加emlivesdkandroid.aar medlivelib.aar
     implementation fileTree(dir:'xxx', include:['*.aar']) 
     implementation 'log4j:log4j:1.2.17'
     implementation 'de.mindpipe.android:android-logging-log4j:1.0.3'
